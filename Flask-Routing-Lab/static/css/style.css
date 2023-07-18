@@ -1,1 +1,27 @@
-
+body{
+	background-color:lightcyan;
+    }
+h2{
+	color:darkcyan;
+}
+h1{
+	color:#E30B5C;
+}
+.button{
+	 color:white;
+	 background-color:violet;
+	 font-size: 30px;
+	 font:Bedrock;
+	 border-radius: 50%;
+}
+.button1{
+	 color:white;
+	 background-color:#F33A6A;
+	 font-size: 23px;
+	 font:Bedrock;
+	 border-radius: 50%;
+}
+p{
+	color:black;
+	font-size: 30px;
+}

@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Product</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+      <style> body{
+    background-color:lightpink;
+    }</style>
 </head>
-<body>
+<body><center>
+    <h1> Clothing aesthetics !</h1>
+    </br>
+    <hr color="black"></hr>
+</center>
+
+</br>
+<ul>
+ <li><h1>Coquette</h1>
+     <p> dress like an underage victorian alcoholic, do nothing but listen to LDR and smoke <3</p>
+        <img src="{{url_for('static',filename='pics//coquette.jpeg')}}" height="250" width="240">
+ </li>   
+
+<li><h1>Hello kitty girls</h1>
+     <p> Gaslight,Gatekeep,Girlboss is every hello kitty girl's motto,  a bit delulu, they spend their days rotting in bed but somehow have the energy to break potential mates mentally!</br>They love collecting hello kitty items to fill the VOiD< hehe :3 but it almost never fills up, it gets bigger</p>
+        <img src="{{url_for('static',filename='pics//hellokitty.jpg')}}" height="250" width="240">
+ </li>   
+
+
+</ol>
+<center><button class="button1"> <font face="Bedrock"><a  href="/">click me harder</a></font></button></center>
 
 </body>
 </html>

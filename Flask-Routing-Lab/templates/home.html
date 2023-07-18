@@ -3,8 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<style> 
+h1{
+    color:violet;
+}
+</style>
 </head>
-<body>
+<body><font face="Bedrock" color="darkcyan"><div class=box>
+<center><h1>
+Vintage Clothes Shop!
+<hr color="darkcyan"></hr>
+</h1>
+<h3> here for the best fashion advice fo-sho!</h3>
+</br>
 
+
+<img src="{{url_for('static',filename='pics//mainimg.jpeg')}}" height="500" width="500">
+</br>
+<h2> The buttons are a bit.... don't mind em tho! click the one under to see the products!</h2>
+</br>
+<button class="button"> <font face="Bedrock"><a href='/product'>click me mommy</a></font></button>
+<button class="button"> <font face="Bedrock"><a href='/cart'>cart? ;)</a></font></button>
+</center></font>
+<hr color="darkcyan"></hr>
 </body>
 </html>
